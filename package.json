@@ -1,0 +1,27 @@
+{
+  "name": "openmic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "om.js",
+  "scripts": {
+    "build": "tsc --project src/tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihailik/openmic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mihailik/openmic/issues"
+  },
+  "homepage": "https://github.com/mihailik/openmic#readme",
+  "devDependencies": {
+    "@types/node": "^12.6.1",
+    "codemirror": "^5.48.0",
+    "typescript": "^3.5.3",
+    "xterm": "^3.14.4"
+  }
+}
